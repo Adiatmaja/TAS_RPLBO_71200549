@@ -20,7 +20,7 @@ public class App {
                 if (arr[1].equals(arr[0]) && arr.length == 2) {
                     int index = 0;
 
-                    for (int j = 0; j < Integer.parseInt(arr[0]); j++) {
+                    for (int j = Integer.parseInt(arr[0]); j > 0; j--) {
                         line = br.readLine();
                         String[] arr2 = line.split(" ");
 
